@@ -1,0 +1,50 @@
+#shape {
+    height: 300px;
+    width: 300px;
+    margin: autoautoautoauto;
+    background: tomato;
+    border: 1pxsolidblack;
+    animation: colorchange5sinfinite;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-duration: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running
+}
+
+@keyframes colorchange5sinfinite {
+    0% {
+        background: red;
+    }
+
+    25% {
+        background: yellow;
+    }
+
+    50% {
+        background: blue;
+        border-radius: 50%;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: red;
+    }
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+body {
+    display: flex;
+    margin: auto auto auto auto;
+}
